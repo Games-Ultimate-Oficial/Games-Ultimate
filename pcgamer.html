@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Games Ultimate | PC Gamer</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:url("fundo.jpg") center center/cover no-repeat fixed;
+    color:white;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.70);
+}
+
+.container{
+    position:relative;
+    z-index:2;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.logo{
+    text-align:center;
+    margin-top:30px;
+}
+
+.logo h1{
+    color:#00ffee;
+    font-size:60px;
+    text-shadow:0 0 20px #00ffee;
+}
+
+.logo h2{
+    color:#fff;
+    margin-top:15px;
+    font-size:28px;
+}
+
+.servicos{
+    margin-top:40px;
+    background:rgba(0,0,0,.55);
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 0 25px #00ffee;
+}
+
+.servicos h3{
+    color:#00ffee;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.servicos ul{
+    list-style:none;
+    font-size:22px;
+    line-height:2;
+}
+
+.servicos li::before{
+    content:"✔ ";
+    color:#00ff66;
+}
+
+.botao{
+    display:inline-block;
+    margin-top:35px;
+    padding:18px 40px;
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:24px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.botao:hover{
+    background:#1EBE5D;
+    transform:scale(1.05);
+}
+
+.galeria{
+    margin-top:60px;
+}
+
+.galeria h3{
+    text-align:center;
+    color:#00ffee;
+    font-size:32px;
+    margin-bottom:25px;
+}
+
+.fotos{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.fotos img{
+    width:320px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    border:3px solid #00ffee;
+    box-shadow:0 0 20px #00ffee;
+    transition:.4s;
+}
+
+.fotos img:hover{
+    transform:scale(1.06);
+    box-shadow:0 0 35px #00ffee;
+}
+
+footer{
+    text-align:center;
+    margin:50px 0 20px;
+    color:#ddd;
+}
+
+@media(max-width:768px){
+
+.logo h1{
+    font-size:42px;
+}
+
+.logo h2{
+    font-size:22px;
+}
+
+.servicos ul{
+    font-size:18px;
+}
+
+.fotos img{
+    width:100%;
+    height:auto;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="logo">
+
+<h1>🎮 GAMES ULTIMATE</h1>
+
+<h2>Especialistas em PC Gamer</h2>
+
+</div>
+
+<div class="servicos">
+
+<h3>Nossos Serviços</h3>
+
+<ul>
+
+<li>Montagem de PC Gamer</li>
+
+<li>Manutenção Preventiva</li>
+
+<li>Limpeza Completa</li>
+
+<li>Troca de Pasta Térmica</li>
+
+<li>Upgrade de Hardware</li>
+
+<li>Instalação de SSD</li>
+
+<li>Formatação e Instalação do Windows</li>
+
+<li>Otimização para Jogos</li>
+
+</ul>
+
+<center>
+
+<a class="botao"
+href="https://wa.me/5511945492437?text=Olá,%20gostaria%20de%20um%20orçamento."
+target="_blank">
+
+📲 WhatsApp (11) 94549-2437
+
+</a>
+
+</center>
+
+</div>
+
+<div class="galeria">
+
+<h3>Galeria de Serviços</h3>
+
+<div class="fotos">
+
+<img src="foto1.jpg" alt="Montagem de PC Gamer">
+
+<img src="foto2.jpg" alt="Manutenção de Computador">
+
+<img src="foto3.jpg" alt="Setup Gamer">
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Games Ultimate - Manutenção e Montagem de PC Gamer
+
+</footer>
+
+</div>
+
+</body>
+</html>
